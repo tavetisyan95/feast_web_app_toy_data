@@ -1,0 +1,27 @@
+
+\
+<
+	driver_idThe ID of the driver"	driver_idJdriver_stats
+®–’°®µ–®–’°®µ–
+E
+%
+__dummy"
+__dummy_idJdriver_stats
+®–’°®µ–®–’°®µ–1"$c3a3562d-fbb1-4fdb-a8a0-04d83f03c223*®–’ÀÂò–2³
+’
+driver_stats_fv2driver_stats	driver_id"
+acc_rate"
+avg_daily_trips2€Æ
+:¹event_timestamp*createdZ31C:\feast\driver_stats\data\driver_stats_2.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢1C:\feast\driver_stats\data\driver_stats_2.parquet@
+®–’°®µ–®–’°®µ–2Ÿ
+þ
+driver_stats_fv1driver_stats	driver_id"
+	conv_rate2€Æ
+:¹event_timestamp*createdZ31C:\feast\driver_stats\data\driver_stats_1.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢1C:\feast\driver_stats\data\driver_stats_1.parquet@
+®–’ÀÂò–®–’ÀÂò–Rú
+{
+,feast.infra.online_stores.sqlite.SqliteTable"K
+*C:\feast\driver_stats\data\online_store.dbdriver_stats_driver_stats_fv2
+{
+,feast.infra.online_stores.sqlite.SqliteTable"K
+*C:\feast\driver_stats\data\online_store.dbdriver_stats_driver_stats_fv1b”event_timestamp*createdZ31C:\feast\driver_stats\data\driver_stats_2.parquet¢1C:\feast\driver_stats\data\driver_stats_2.parquetªdriver_statsb”event_timestamp*createdZ31C:\feast\driver_stats\data\driver_stats_1.parquet¢1C:\feast\driver_stats\data\driver_stats_1.parquetªdriver_stats
