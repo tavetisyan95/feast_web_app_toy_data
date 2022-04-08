@@ -12,8 +12,8 @@ A few things to keep in mind with the dataset:
 
 - The timestamps in the dataset range from `2021-09-01 00:00:00+00:00` to `2021-09-15 00:00:00+00:00`. 
 - The entity column name for the dataset is `driver_id` - it represents the unique drivers that the data was collected for.
-- There are two feature views in the feature store – driver_stats_fv_1 and driver_stats_fv_2. driver_stats_fv_1 contains the feature column conv_rate, while driver_stats_fv_2 contains the feature columns acc_rate and avg_daily_trips.
-- There is one entity registered in the feature store – driver_id. It represents the unique drivers that the data was collected for.
+- There are two feature views in the feature store – `driver_stats_fv_1` and `driver_stats_fv_2`. `driver_stats_fv_1` contains the feature column conv_rate, while `driver_stats_fv_2` contains the feature columns acc_rate and avg_daily_trips.
+- There is one entity registered in the feature store – `driver_id`. It represents the unique drivers that the data was collected for.
 - There are five driver IDs in the dataset - `1001`, `1002`, `1003`, `1004`, and `1005`.
 - For each hour in the indicated timestamp range, there are feature values for each driver ID. This means that you have five feature rows (one per driver ID) for every hour.
 
