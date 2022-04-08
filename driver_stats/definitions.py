@@ -46,7 +46,7 @@ driver_stats_fv2 = FeatureView(
     entities=["driver_id"],
     features=[
         Feature(name="acc_rate", dtype=ValueType.FLOAT),
-        Feature(name="avg_daily_trips", dtype=ValueType.FLOAT)        
+        Feature(name="avg_daily_trips", dtype=ValueType.INT64)        
         ],    
     batch_source=file_source2
 )
