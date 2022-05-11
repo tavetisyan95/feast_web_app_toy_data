@@ -1,5 +1,5 @@
 ## Feature store description
-This is a toy feature store for [this React.js web application](https://github.com/tavetisyan95/feast_web_app). The feature store is based on the driver stats dataset used across many tutorials in the Feast docs. We've changed the dataset somewhat to better showcase the app's capabilities and simplify its use.
+This is a toy feature store for [this React.js web application](https://github.com/tavetisyan95/feast_web_app) built for the post [Creating a Feature Store with Feast Part 3: Building An API and React App for Feast](https://kedion.medium.com/feature-storage-for-ml-with-feast-a061899fc4a2). The feature store is based on the driver stats dataset used across many tutorials in the Feast docs. We've changed the dataset somewhat to better showcase the app's capabilities and simplify its use.
 
 You can find the original dataset [here](https://github.com/feast-dev/feast-demo), or in the root directory of this project (`driver_stats_with_string.parquet`).
 
